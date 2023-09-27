@@ -1,0 +1,236 @@
+main {
+  width: 75%;
+  position: relative;
+  left: 25%;
+  background-color: #3878a9;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+
+  #Haqqımda {
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    gap: 30px;
+    .nameSurname {
+      width: 100%;
+      font-size: 70px;
+    }
+    .location {
+      font-size: 25px;
+      width: 100%;
+    }
+    .haqqımda {
+      font-size: 25px;
+    }
+    .socialMedia {
+      display: flex;
+      gap: 30px;
+      font-size: 50px;
+    }
+  }
+}
+// Burada haqqımda section bitir
+
+// Burada təhsilim section başlayır
+#Təhsilim {
+  width: 100%;
+  height: 100vh;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  gap: 30px;
+  .Təhsilim {
+    font-size: 40px;
+  }
+  .aliTəhsilim {
+    font-size: 30px;
+  }
+  .ixtisasım {
+    font-size: 25px;
+  }
+  .aliTəhsilim2 {
+    font-size: 30px;
+  }
+  .ixtisasım2 {
+    font-size: 25px;
+  }
+}
+// Burada təhsilim section bitir
+
+// Burada təcrübələrim section başlayır
+
+#Təcrübələrim {
+  width: 100%;
+  height: 100vh;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  gap: 30px;
+  .Təcrübələrim {
+    font-size: 40px;
+  }
+  .təcrübəKeçdiyimSahələr {
+    font-size: 25px;
+  }
+}
+// Burada təcrübələrim section bitir
+
+// Burada mükafatlarım section başlayır
+
+#Mükafatlarım {
+  max-width: 80%;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+  gap: 30px;
+  .Mükafatlarım {
+    font-size: 40px;
+  }
+  .aldığımMükafatlar {
+    font-size: 30px;
+  }
+  .mükafatım {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  main {
+    width: 100%;
+    left: 0;
+    #Haqqımda {
+      .nameSurname {
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 568px) {
+  main {
+    width: 100%;
+    left: 0;
+    #Haqqımda {
+      padding: 0 20px;
+      .nameSurname {
+        font-size: 30px;
+      }
+      .location {
+        font-size: 18px;
+      }
+      .haqqımda {
+        font-size: 18px;
+      }
+      .socialMedia {
+        font-size: 22px;
+      }
+    }
+    #Təhsilim {
+      padding: 0 20px;
+      .Təhsilim {
+        font-size: 25px;
+      }
+      .aliTəhsilim {
+        font-size: 20px;
+      }
+      .ixtisasım {
+        font-size: 16px;
+      }
+      .aliTəhsilim2 {
+        font-size: 20px;
+      }
+      .ixtisasım2 {
+        font-size: 16px;
+      }
+    }
+    #Təcrübələrim {
+      padding: 0 20px;
+      .Təcrübələrim {
+        font-size: 25px;
+      }
+      .təcrübəKeçdiyimSahələr {
+        font-size: 16px;
+      }
+    }
+    #Mükafatlarım {
+      padding: 0 20px;
+      .Mükafatlarım {
+        font-size: 25px;
+      }
+      .aldığımMükafatlar {
+        font-size: 20px;
+      }
+      .mükafatım {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 420px) {
+  main {
+    // width: 100%;
+    // left: 0;
+    #Haqqımda {
+      .nameSurname {
+        font-size: 20px;
+      }
+      .location {
+        font-size: 16px;
+      }
+      .haqqımda {
+        font-size: 15px;
+      }
+      .socialMedia {
+        font-size: 18px;
+      }
+    }
+    #Təhsilim {
+      .Təhsilim {
+        font-size: 25px;
+      }
+      .aliTəhsilim {
+        font-size: 20px;
+      }
+      .ixtisasım {
+        font-size: 16px;
+      }
+      .aliTəhsilim2 {
+        font-size: 20px;
+      }
+      .ixtisasım2 {
+        font-size: 16px;
+      }
+    }
+    #Təcrübələrim {
+      .Təcrübələrim {
+        font-size: 25px;
+      }
+      .təcrübəKeçdiyimSahələr {
+        font-size: 16px;
+      }
+    }
+    #Mükafatlarım {
+      .Mükafatlarım {
+        font-size: 25px;
+      }
+      .aldığımMükafatlar {
+        font-size: 20px;
+      }
+      .mükafatım {
+        font-size: 16px;
+      }
+    }
+  }
+}
